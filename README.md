@@ -41,5 +41,5 @@ Also generates the prediction file which ends in .predict \
 BEST VALUES OF C and GAMMA FOR THE ABOVE BIN SIZES: \
 RAD: C: 2.0 Gamma: 2.0 \
 HJPD: C: 2.0 Gamma: 8.0 \
-HOD: C: 8.0 Gamma: 0.0078125 \
+HOD: C: 8.0 Gamma: 0.0078125
 
