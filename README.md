@@ -2,10 +2,10 @@ Compilation and Execution Instructions: \
 \
 1.) Extract the folder from the tarball into a single location. Ensure that all the files extracted are in the same folder. \
 2.) Open a terminal inside the folder that contains the extracted files \
-3.) type "make" \
-4.) The integrated program that fulfills Task 4 is called "integrated.cpp" and will be compiled into an executable called "integrated". \
+3.) Use the command "make" \
+4.) The integrated program that fulfills Task 4 in the Deliverable 2 writeup is called "integrated.cpp" and will be compiled into an executable called "integrated". \
 5.) This program has 4 required input arguments. \
-i.) -r which is a command line flag to signal which model you want \
+i.) "-r" which is a command line flag to signal which model you want \
 ii.) The model can be one of three choices for each of the three representations: "rad", "hjpd", or "hod" \
 iii.) The desired C parameter value \
 iv.) The desired gamma parameter value \
@@ -13,6 +13,7 @@ Example command line usage: ./integrated -r rad 2 2 \
 \
 Implementation Information: \
 For all 3 representations: for detected NAN values, the whole frame containing even a single NAN value is deleted. \
+\
 RAD: \
 The Joints used for the angle and distance calculations are the joints 1, 4, 8, 12, 16, and 20. \
 The number of bins used in this implementation is 16. \
@@ -22,7 +23,6 @@ HJPD: \
 The number of bins in each histogram is 18.\
 The bin width is a determined from calculating the residual of the maximum data value and the minimum data value in the set, and then dividing by the number of bins. \
 The histogram is normalized according to the total number of data points \
-\
 HOD: \
 The number of bins used in the HOD histograms is 25. \
 The bin width is 14 degrees per bin. \

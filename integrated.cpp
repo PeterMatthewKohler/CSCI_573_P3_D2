@@ -43,7 +43,7 @@ int main(int argc, char** argv){
         }
     }
     else {
-        std::cout << "Error: please input correct input arguments according to the README" << endl;
+        std::cout << "Error: please use the correct input arguments according to the README" << endl;
         exit(1);
     }
 
