@@ -32,14 +32,14 @@ SVMF: \
 Function to format the representations so they are usable by libSVM. Follows the required libSVM format of: \
 [label] [index1]:[value1] [index2]:[value2]...
 
-SUBMISSION MATERIALS:
-
 INTEGRATED: \
 Makes use of many different functions including libSVM member functions to use SVMs to classify the kinect datasets \
 Generates all the representation files including the original representation files, then formats them to the libSVM standard \
 Outputs the accuracy of the classification and the confusion matrix to the screen. \
 Also generates the prediction file which ends in .predict \
-\
+
+SUBMISSION MATERIALS:
+
 GRID SEARCH GRAPHS: \
 The graphs from the grid.py program are located in the folder "Graphs"
 
