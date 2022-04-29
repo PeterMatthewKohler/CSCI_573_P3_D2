@@ -38,8 +38,16 @@ Generates all the representation files including the original representation fil
 Outputs the accuracy of the classification and the confusion matrix to the screen. \
 Also generates the prediction file which ends in .predict \
 \
+GRID SEARCH GRAPHS: \
+The graphs from the grid.py program are located in the folder "Graphs" \
 BEST VALUES OF C and GAMMA FOR THE ABOVE BIN SIZES: \
 RAD: C: 2.0 Gamma: 2.0 \
 HJPD: C: 2.0 Gamma: 8.0 \
-HOD: C: 8.0 Gamma: 0.0078125
+HOD: C: 8.0 Gamma: 0.0078125 \
+CONVERTED REPRESENTATION FILES and OUTPUT PREDICTION RESULT FILES \
+The converted representation files are in the folder "Converted_Representations" \
+and the Output Predictions are in the folder "Output_predictions" \
+ACCURACY FIGURES \
+The accuracy vs. number of bins figures are in the folder "Accuracy_Figures" 
+
 
