@@ -5,10 +5,10 @@ Compilation and Execution Instructions: \
 3.) type "make" \
 4.) The integrated program that fulfills Task 4 is called "integrated.cpp" and will be compiled into an executable called "integrated". \
 5.) This program has 4 required arguments. \
-\t i.) -r which is a command line flag to signal which model you want \
-\t ii.) One of three choices for each of the three representations: "rad", "hjpd", or "hod" \
-\t iii.) The desired C parameter value \
-\t iv.) The desired gamma parameter value \
+i.) -r which is a command line flag to signal which model you want \
+ii.) One of three choices for each of the three representations: "rad", "hjpd", or "hod" \
+iii.) The desired C parameter value \
+iv.) The desired gamma parameter value \
 Example command line usage: ./integrated -r rad 2 2 \
 \
 Implementation Information: \
@@ -37,7 +37,7 @@ Makes use of many different functions including libSVM member functions to use S
 Outputs the accuracy of the classification and the confusion matrix to the screen. \
 \
 BEST VALUES OF C and GAMMA: \
-RAD: C: 2.0 \t Gamma: 2.0 \
-HJPD: C: 32.0 \t Gamma: 2.0 \
-HOD: C: 8.0 \t Gamma: 0.0078125 \
+RAD: C: 2.0 Gamma: 2.0 \
+HJPD: C: 32.0 Gamma: 2.0 \
+HOD: C: 8.0 Gamma: 0.0078125 \
 
