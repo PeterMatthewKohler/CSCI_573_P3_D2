@@ -34,7 +34,9 @@ Function to format the data created in deliverable one. Follows the required lib
 
 INTEGRATED: \
 Makes use of many different functions including libSVM member functions to use SVMs to classify the kinect datasets \
+Generates all the representation files including the original representation files, then the libSBM formatted files \
 Outputs the accuracy of the classification and the confusion matrix to the screen. \
+Also generates the prediction file which ends in .predict \
 \
 BEST VALUES OF C and GAMMA: \
 RAD: C: 2.0 Gamma: 2.0 \
