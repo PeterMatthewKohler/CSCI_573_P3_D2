@@ -14,8 +14,8 @@ lib: svm.o
 
 
 
-integrated: integrated.h integrated.cpp
-		$(CXX) $(CFLAGS) integrated.h integrated.cpp svm.o -o integrated
+integrated: integrated.cpp
+		$(CXX) $(CFLAGS) integrated.cpp svm.o -o integrated
 
 svm.o: svm.cpp svm.h
 	$(CXX) $(CFLAGS) -c svm.cpp

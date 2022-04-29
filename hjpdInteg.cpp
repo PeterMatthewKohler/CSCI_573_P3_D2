@@ -215,8 +215,8 @@ Matrix jointPosDiff(Matrix& input, string coord) {
 Row computeHistogramHOD(Matrix& input, int frames) {
     // Determine number of bins
     int numData = input.size();   // Number of Frames, 19 joint distances per frame
-    int bins = 15;
-    //cout << "Numdata: " << numData << " bins: " << bins << endl;
+    int bins = 18;
+
     float minVal, maxVal;
 
 
